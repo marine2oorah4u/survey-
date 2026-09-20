@@ -1,8 +1,9 @@
 name: CI
 
+# Branch pushes are covered by the pull_request trigger, so only main runs on push.
 on:
   push:
-    branches: ['**']
+    branches: [main]
   pull_request:
   workflow_dispatch:
 
