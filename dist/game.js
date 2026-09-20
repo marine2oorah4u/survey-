@@ -1,5 +1,5 @@
 import * as THREE from './three.module.js';
-import {terrain,buildEnvironment} from './environment.js';
+import {terrain,buildEnvironment} from './environment.js?v=4';
 import {corners,wrap,reading,fromReading,area,error} from './survey-math.js';
 const $=id=>document.getElementById(id);
 const state={instrument:false,zoom:false,yaw:0,pitch:-.055,pos:new THREE.Vector3(.32,0,1.4),records:{},plots:{P1:{x:0,z:0}},selected:'P2',target:null,started:false};
