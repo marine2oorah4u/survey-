@@ -1,5 +1,6 @@
 import * as T from './three.module.js';
-export function terrain(x,z){const d=Math.hypot(x-25,z+20);return .8*Math.sin(x*.032)*Math.cos(z*.042)+.3*Math.sin(z*.09+x*.035)+Math.max(0,d-85)*.027;}
+import {terrain} from './terrain.js';
+export {terrain};
 export function buildEnvironment(scene,renderer,desktopDetail=false){
  let seed=8721;const random=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
  const material=(color,roughness=1)=>new T.MeshStandardMaterial({color,roughness});
