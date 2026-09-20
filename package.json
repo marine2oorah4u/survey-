@@ -1,0 +1,11 @@
+{
+  "name": "field-survey",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.js"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}

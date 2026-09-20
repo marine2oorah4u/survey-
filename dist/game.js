@@ -1,12 +1,12 @@
 import * as THREE from './three.module.js';
-import {terrain,buildEnvironment} from './environment.js?v=5';
+import {terrain,buildEnvironment} from './environment.js?v=6';
 import {corners,wrap,reading,fromReading,area,error} from './survey-math.js';
 const $=id=>document.getElementById(id);
 const state={instrument:false,zoom:false,yaw:0,pitch:-.055,pos:new THREE.Vector3(.32,0,1.4),records:{},plots:{P1:{x:0,z:0}},selected:'P2',target:null,started:false};
 const desktopDetail=matchMedia("(any-pointer: fine)").matches;
 const keys=new Set();let toastTimer,renderer,last=0,stick={x:0,y:0},drag=null;
 function toast(message){$('toast').textContent=message;$('toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('visible'),3300);}
-const scene=new THREE.Scene();scene.background=new THREE.Color('#b8d2df');scene.fog=new THREE.FogExp2('#c4d0c3',.0026);
+const scene=new THREE.Scene();scene.background=new THREE.Color('#b8d2df');scene.fog=new THREE.FogExp2('#bdc9c5',.0017);
 const camera=new THREE.PerspectiveCamera(65,innerWidth/innerHeight,.1,700);camera.rotation.order='YXZ';
 try{renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance'});}catch(e){$('loading').textContent='This browser could not start 3D graphics. Try opening this link in Safari or Chrome with WebGL enabled.';throw e;}
 renderer.setPixelRatio(Math.min(devicePixelRatio,desktopDetail?2:1.5));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=.95;renderer.outputColorSpace=THREE.SRGBColorSpace;$('world').appendChild(renderer.domElement);$('loading').remove();
