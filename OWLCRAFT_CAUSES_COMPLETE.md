@@ -1,6 +1,199 @@
-# OwlCraft: Every Cause Found, Pass by Pass
+# OwlCraft: Missing Causes — Complete Findings
 
-Raw record of every idea each brainstorm pass produced for `OWLCRAFT_CAUSES_LIST.md`. For the recommended cut and restructuring, see `OWLCRAFT_CAUSES_FINDINGS.md`.
+Everything found while hunting for causes missing from `OWLCRAFT_CAUSES_LIST.md` (the 68 existing causes plus 3 earlier candidates), combined in one file: the recommended additions and restructuring, followed by the full pass-by-pass record of every idea each brainstorm produced.
+
+**Contents**
+- **Part 1: Recommendations**: how the work was done, the recommended additions in tiers, the fold map, scope decisions, restructuring of the existing 68, corrections, dropped ideas, counts, and next steps.
+- **Part 2: Every idea, pass by pass**: Round 1 and 2 (my own lists), Passes A to I (nine independent agent passes), and a cross-pass scoreboard.
+
+**Number status:** `(V)` = verified by web search; `(?)` = from memory or unchecked. Verify every `(?)` figure before publishing. All passes are the same underlying model, so agreement shows consistency, not independent proof.
+
+---
+
+## Part 1: Recommendations
+
+
+Records what the brainstorm found, what was compared, and what we recommend adding, folding, or restructuring.
+
+**Status of numbers:** `(V)` = verified by a web search during this work. `(?)` = from memory or not checked. Verify every `(?)` figure before publishing.
+
+---
+
+### 1. How this was done
+
+| Round | What | Result |
+|---|---|---|
+| 1 | First reply: 8 strong picks + tier-2/3 lists | Hunger, Cancer, Diabetes, Dementia, Kidney, Vision, Road Safety, Landmines |
+| 2 | 86-idea US + global brainstorm, rated strong / check-overlap / fold | ~65 folds, ~9 strong |
+| 3 | Three independent passes (health, community need, environment/humanitarian), each blind to rounds 1-2 | Consensus on ~20 causes; corrected my underrated items |
+| 4 | Three more passes (beneficiary-first, problem/things grid, neglected/emerging) with everything found so far excluded | 2-4 new causes, mostly carve-outs |
+| 5 | Final three passes (audit of existing causes, place-based, taxonomy completeness vs NTEE / Charity Navigator / SDGs / Candid) | 1 defensible new cause, 2 borderline, plus restructuring fixes |
+
+**Verdict:** the list is saturated. Returns diminished each round (about 20, then 2-4, then 1-3 new causes). The remaining value is restructuring and verification, not more ideas.
+
+**Caveats:** all passes are the same underlying model, so agreement shows consistency, not outside proof. Saturation by large charities was only lightly checked.
+
+---
+
+### 2. Recommended additions
+
+Current baseline: 68 existing + 3 earlier candidates (Dental, Assistive Tech, Hearing) = 71.
+
+#### Tier A: adopt (consensus or strong support)
+
+| # | Cause | Scope | Scale | Why distinct | Flags |
+|---|---|---|---|---|---|
+| 1 | **Hunger, Food Insecurity & Malnutrition** | Both | ~700M undernourished (?), ~45M children wasted (?), ~47M US food-insecure (USDA 2023) (?) | #1 Agriculture covers growing food, not feeding people or treating malnutrition | Fold in child malnutrition, hidden hunger (micronutrients), food rescue, school meals, food-as-medicine. Write as US and global sections |
+| 2 | **Dementia & Memory Care** | Both | ~57M worldwide (WHO) (?) | #49 Seniors and #50 Caregivers touch it but dementia care has its own interventions | Medium overlap with #49 and #50 |
+| 3 | **Heart & Hypertension** (incl. stroke, cardiac arrest) | Both | Leading global killer (?) | No cardiovascular cause exists | Overlaps #41 (prehospital) on cardiac arrest and CPR |
+| 4 | **Diabetes & Insulin Access** | Both | ~589M adults (IDF) vs ~830M (WHO); definitions differ (?) | NCD management is absent from the list | Some overlap with #34 |
+| 5 | **Kidney Disease & Dialysis** (incl. transplant access) | Both | ~850M with kidney disease (?) | No kidney or organ cause exists | Check scope against #36 |
+| 6 | **Cancer Care Access** (childhood cancer emphasis, cervical cancer screening) | Both | ~20M new cases/yr, ~9.7M deaths (?) | #35 funds research; access to care is separate | Scope to access and patient support |
+| 7 | **Vision Care & Eyeglasses** | Both | ~1B with correctable vision loss (?) | #36 names cataract only | Give cataract one home (see Section 4) |
+| 8 | **Health Workforce & Community Health Workers** | Both | ~10M health-worker shortfall by 2030 (WHO) (?) | Delivery gap behind many causes | May read as a method, not a cause |
+| 9 | **Immunization Delivery** | Global | ~14M zero-dose children (?) | #27 names no vaccination logistics | Scope to cold chain and outreach; consider merging with #27 |
+| 10 | **Energy Insecurity & Temperature Extremes** (heat, cold, utility bills) | Both | ~489K heat deaths/yr (?) | Climate (#14) is emissions; this is adaptation and household bills | Includes warming centers and weatherization |
+| 11 | **Road Traffic Safety** | Global (both) | ~1.19M deaths/yr (WHO) (?) | #25 is kids only; #60 is access | Leans government for roads; scope to helmets, bystander aid, victim support |
+| 12 | **Civil Legal Aid** | US (both) | ~92% of low-income civil legal problems unmet (LSC 2022) (?) | No legal-help cause exists | Scope to direct services, not policy |
+| 13 | **Missing Persons & Family Reunification** | Both | ~500-600K US missing-person reports/yr (?) | Not covered; nonprofit-driven | Cross-reference with Funeral/Unclaimed Dead (DNA identification) |
+| 14 | **Transportation Access** (rides, car repair, bikes) | Both | ~5.8M Americans delay care for lack of transport (?) | #60 is infrastructure | Patient travel could merge in as a section |
+| 15 | **Patient & Family Travel/Lodging** (incl. hospitalized kids' families) | Both | no single stat | #34 is access, not logistics | Consider merging into #14 |
+| 16 | **Funeral, Burial & Unclaimed Dead** | US (both) | Funeral costs ~$8-10K (?) | Not covered; real hardship | Round 1 dismissed it as thin; two later passes rated it strong |
+| 17 | **Crime Victim & Homicide Survivor Support** | US | ~20K homicides/yr (?) | Not DV (#54) or trafficking (#55) | Rename #54 to include sexual violence (see Section 5) |
+| 18 | **Landmines & Explosive Remnants** | Global | ~5,700 casualties in 2023, mostly civilians (?) | Not covered | Anchor on clearance, prosthetics, livelihoods; risk education alone is awareness-only |
+| 19 | **Human-Wildlife Coexistence** | Global | no single stat | Distinct tools: corrals, beehive fences, early warning | Overlaps #7 |
+| 20 | **Freshwater & Wetland Ecosystems** | Both | Freshwater species down ~85% (WWF) (?); ~35% of wetlands lost since 1970 (Ramsar) (?) | You have ocean (#4) but no rivers, lakes or wetlands | Overlaps #8 |
+
+#### Tier B: found in later rounds, recommended
+
+| # | Cause | Scope | Scale | Why distinct | Flags |
+|---|---|---|---|---|---|
+| 21 | **Women's Health Beyond Maternity** (endometriosis, fibroids, PCOS, menopause, gynecologic care) | Both | Endometriosis affects 190M+ women; US NIH funds it ~$16M vs >$1.2B for diabetes (V) | #26 is maternal only; #47 is men's health. Truly new | Keep family planning out (charged, dominated by large orgs) |
+| 22 | **Autism & Developmental Disabilities** (service gaps) | Both | 1 in 31 US 8-year-olds (V, CDC); 606,895 on US Medicaid waiver waitlists, avg wait 37 months (V); 53M children under 5 with developmental disabilities globally (V) | Carve-out of broad #48 Disability Support | Crowded on awareness (Autism Speaks); scope to services, adult supports, low-income early intervention |
+| 23 | **Surgical, Orthopedic & Rehabilitation Access** (merge of surgery/anesthesia, musculoskeletal, rehab) | Both | 1.71B with musculoskeletal conditions (V, WHO); ~5B lack safe surgery (Lancet 2015) (?) | One stronger cause instead of three thin ones | Overlaps #36 and Assistive Tech |
+| 24 | **US Water & Plumbing Access** | US | 2.2M Americans lack running water or a flush toilet; Native households ~19x as likely (V, DigDeep) | You already split poverty into US (#17) and global (#18); this is the US counterpart to #5 | Only works if #5 stays global-framed |
+
+#### Tier C: optional (check-overlap)
+
+| Cause | Scope | Notes |
+|---|---|---|
+| **Infertility, Pregnancy Loss & Stillbirth** | Both | ~1 in 6 adults affected (V, WHO 2023). Absorbs your Stillbirth borderline and adoption costs. Also lets #24 Childhood Grief broaden to Grief & Bereavement |
+| **Drowning & Water Safety (all ages)** | Global | ~300,000 deaths/yr, 92% in low- and middle-income countries (V, WHO Dec 2024). Standalone only if scoped beyond kids and to boats and fishers; otherwise stays inside #25 |
+| **Community Early Warning Systems** | Global | 1 in 3 people lack coverage, 60% in Africa (V, WMO). Government-heavy; nonprofit niche is last-mile sirens, gauges and radios. Fold into #62 unless scoped narrowly |
+| **Seafarers & Offshore Workers** | Global | Record 310 abandonment cases in 2024 (V). Real but narrow; probably folds into #51 Worker Safety. Seafarer headcount conflicts (1.9M vs 1.25M), so check the source |
+
+---
+
+### 3. Fold map (ideas that are real but not stand-alone)
+
+| Idea | Fold into |
+|---|---|
+| Hemophilia, thalassemia (inherited bleeding/blood disorders) | Expand #30 Sickle Cell to "Inherited Blood Disorders" (~75% untreated (V)) |
+| Rabies and dog-bite care | #28 NTDs (59,000 deaths/yr (V); rabies is on WHO's NTD list) |
+| Arsenic and fluoride in water | Groundwater fold / #5 (Bangladesh ~57M exposed (V)) |
+| Dengue, Chagas, Lyme/tick-borne | #27 / #28 (US Lyme ~476K/yr is an insurance-claims estimate (V)) |
+| Winter cold, hypothermia | Cause #10 above |
+| Newborn screening | #29 Rare Diseases |
+| Skin disease and chronic wounds | #28 NTDs and Diabetes |
+| Speech/language disorders, AAC | Assistive Tech and Autism/IDD |
+| Hepatitis B and C | #27 (~1.3M deaths/yr (V)) |
+| Rheumatic and congenital heart disease | Heart & Hypertension / #36 |
+| Asthma and COPD | #11 Air Quality |
+| Child pneumonia and diarrhea | #27 |
+| Post-harvest food loss, cold chain | #1 Agriculture |
+| Clean cooking | #11 or #12 (decide once) |
+| Child labor and child marriage | #55 / #56 |
+| Elder abuse, falls prevention, long-term care, senior transport | #49 Seniors |
+| Youth homelessness | #16 / #21 |
+| Children of incarcerated parents, wrongful conviction, pretrial detention | #53 Reentry (make it an umbrella) |
+| Torture survivors, returnees | #58 Refugees |
+| Sexual assault services, child advocacy centers | Rename #54 Domestic & Sexual Violence Survivors |
+| Medical respite | #16 Housing |
+| Medical surplus recovery | Your Medical Equipment Repair fold-candidate |
+| Forests, reforestation, urban tree canopy | Rename #2 Forests, Land & Habitat Conservation |
+| Invasive species, coral reefs, small-scale fishing | #8, #4 |
+| PFAS, e-waste, orphan wells, abandoned mines, asbestos | #6 Environmental Cleanup |
+| Pesticide poisoning, black lung, domestic workers | #51 Worker Safety |
+| Home repair, healthy homes, bed bugs/rodents | #16 / #42 (Home Repair is a "decide scope" item) |
+| Household essentials (clothing, shoes, beds, furniture) | #17 hub (or optional standalone) |
+| Microenterprise, vocational training, savings groups, debt, benefits/tax help | #17 / #18 / #19 |
+| Slum upgrading | #16 / #18 |
+| Neighborhood blight and vacant land | Urban green space / #6 |
+| Pets of low-income owners | Companion animal cause (split of #68) |
+
+---
+
+### 4. "Decide scope" items
+
+Real needs, but they overlap existing causes enough that they need an owner decision: Clean Cooking, Child Labor & Child Marriage, Home Repair & Healthy Homes, Elder Abuse, Youth Homelessness, Livestock & Working-Animal Health, Household Essentials (clothing, beds, furniture), Cultural Heritage & Historic Preservation, Preterm Birth/NICU, Peacebuilding & Mediation.
+
+Round 1 rated service dogs, supported employment, serious mental illness, slum upgrading, search and rescue, and global Indigenous peoples as strong. No independent pass confirmed them, so treat them as unconfirmed.
+
+---
+
+### 5. Restructuring recommendations for the existing 68
+
+The audit and taxonomy passes produced these. Several were flagged independently by more than one pass.
+
+1. **#68 Animal Welfare is too broad.** Split into Companion Animal Welfare (spay/neuter, low-income vet care, pet food banks, pet-friendly shelters for DV survivors and homeless people, disaster pet evacuation) and Livestock & Working-Animal Health (donkeys, draft animals, herders, vet access).
+2. **#26 Maternal & Child Health collides with several others.** Narrow to Maternal & Newborn Survival (obstetric emergencies, PPH kits, C-section capacity, midwife training, maternity waiting homes, kangaroo care). Send child nutrition to Hunger and vaccines to Immunization.
+3. **#17 Poverty (US) should be a hub** with a fixed angle list: emergency cash, benefits enrollment, tax prep, debt relief, banking access, car repair, household essentials, single-parent support. Make #19 the workforce cause. Keep #18 to programs (graduation approach, cash transfers, microenterprise).
+4. **#48 Disability Support overlaps five or more items** (Assistive Tech, Hearing, Autism, Speech, service dogs). Redefine as Disability Inclusion & Daily-Life Support: home accessibility, respite, independent-living skills, disability in disasters.
+5. **Geography labels.** #43 Mental Health and #49 Seniors read US-only (add global treatment-gap and ageing angles). #57 Native American is US-only. #59 Rural is US; #60 Rural Access is really a low-income-country cause. Label or add global angles.
+6. **#2 Land Preservation** needs a home for forests and urban canopy (see Section 3).
+7. **#1 Agriculture** should be repositioned as Smallholder & Sustainable Farming (irrigation kits, seed banks, post-harvest storage, cooperatives, women farmers). It absorbs your Crop Diversity fold.
+8. **#3 Coastal Cleanup, #4 Ocean, #6 Environmental Cleanup, #9 Recycling** all cover marine plastic. Merge #3 into #4 or broaden it to Coasts & Shoreline Resilience.
+9. **#14 Climate Change & Emissions** is the vaguest and most politically exposed. Scope to tangible work (weatherization, methane capture, cool roofs, community adaptation).
+10. **Overlaps among the adopted causes:** Vision Care vs #36 (cataract appears in both), burns in both #36 and #63, Patient Travel vs Transportation, Missing Persons vs Funeral/Unclaimed Dead.
+11. **Smaller fixes:**
+    - #24 Childhood Grief: broaden to Grief & Bereavement (adult grief, widowhood, pregnancy loss).
+    - #22 Orphans: add family-based care as an alternative to orphanages.
+    - #20 Hygiene: add laundry and shower access for unhoused people.
+    - #5 Clean Water: add US water insecurity, or split (see cause #24 above).
+    - #52 Veterans: add military families and burn-pit illness.
+    - #58 Refugees: separate US resettlement from camps and displacement.
+    - #35 Medical Research: add clinical-trial access and neglected-disease drug discovery.
+
+---
+
+### 6. Corrections to earlier figures
+
+- Drowning: ~300,000 deaths/yr (WHO, Dec 2024), not the ~236,000 given earlier.
+- Diabetes: ~589M adults (IDF, ages 20-79) vs ~830M (WHO/NCD-RisC, ages 18+). Different definitions; cite the source.
+- Seafarers: 1.9M and 1.25M both appeared. Check before using either.
+- Lyme: ~476K US cases is an insurance-claims estimate and may be high.
+
+### 7. Dropped as thin, political, or out of scope
+
+Local news deserts (civic, not direct help); sepsis (awareness-leaning); online child exploitation/sextortion (awareness-heavy, crowded by NCMEC and Thorn); family planning (charged, dominated by large orgs); tobacco cessation (saturated); LGBTQ and newcomer-integration causes (political; keep any service angles inside Youth Homelessness and Refugees); adult literacy (education); community-based tourism, light pollution, albinism, female genital cutting (thin or sensitive).
+
+---
+
+### 8. Counts
+
+| Stage | Total |
+|---|---|
+| 68 existing + 3 earlier candidates | 71 |
+| + 20 Tier A | 91 |
+| + 4 Tier B | 95 |
+| + Tier C optional (up to 4) | up to 99 |
+| + Animal Welfare split (net +1), Patient Travel merged into Transportation (net -1) | unchanged |
+
+Your brief says strong causes beat a padded 100. Recommendation: stop around **90-95** and fold the weakest Tier A/B items if any fail the verification step.
+
+### 9. Next steps
+
+1. Verify every `(?)` figure above.
+2. Check saturation: does a dominant large charity already own each of the ~25 finalists?
+3. Decide the Section 4 scope items and the Section 5 restructuring.
+4. Draft write-ups in your existing format for the confirmed causes.
+
+---
+
+## Part 2: Every idea, pass by pass
+
+
+Raw record of every idea each brainstorm pass produced for `OWLCRAFT_CAUSES_LIST.md`. For the recommended cut and restructuring, see Part 1.
 
 **Legend**
 - **STRONG** = pass rated it a stand-alone cause. **CHECK** = real but overlaps something. **FOLD** = belongs inside an existing cause.
@@ -25,7 +218,7 @@ Raw record of every idea each brainstorm pass produced for `OWLCRAFT_CAUSES_LIST
 
 ---
 
-## Round 1: first reply (my own)
+### Round 1: first reply (my own)
 
 **Strong picks:** Hunger & Malnutrition; Cancer Care Access (incl. childhood cancer); Diabetes & Chronic Disease Management; Dementia & Memory Care; Kidney Disease, Dialysis & Transplant; Vision Care & Eyeglasses; Road Safety; Landmines & Unexploded Ordnance.
 
@@ -37,52 +230,52 @@ Raw record of every idea each brainstorm pass produced for `OWLCRAFT_CAUSES_LIST
 
 ---
 
-## Round 2: 86-idea brainstorm (my own)
+### Round 2: 86-idea brainstorm (my own)
 
-### Food & nutrition
+#### Food & nutrition
 Post-harvest food loss & storage (STRONG); hidden hunger / micronutrient deficiency (CHECK); food deserts & fresh food access, US (CHECK); food safety & foodborne illness (CHECK); infant feeding & breastfeeding support (FOLD); school meals (FOLD).
 
-### Heart, lung & neurological
+#### Heart, lung & neurological
 Heart disease & cardiac arrest (STRONG); stroke prevention & recovery (CHECK); rheumatic & congenital heart disease (CHECK); asthma & chronic lung disease (CHECK); neurological disease support: ALS, Parkinson's, MS (CHECK); brain & spinal cord injury rehab (CHECK); long COVID / ME-CFS (CHECK).
 
-### Newborns & children's health
+#### Newborns & children's health
 Preterm birth & newborn intensive care (STRONG); childhood pneumonia & diarrhea (CHECK); vaccination access (CHECK); hospitalized kids & their families (STRONG); safe infant sleep & baby gear (CHECK).
 
-### Mental & behavioral
+#### Mental & behavioral
 Serious mental illness (CHECK+); trauma & PTSD recovery (CHECK); child & adolescent mental health (CHECK); adult grief & widowhood (CHECK); perinatal / postpartum mental health (FOLD); eating disorders (FOLD); gambling & behavioral addictions (FOLD).
 
-### Care access & health systems
+#### Care access & health systems
 Medical transport & patient lodging (CHECK); health facility infrastructure: power/water in clinics (CHECK); prescription affordability & pharmacy access, US (CHECK); language access & interpreter services (STRONG); mobile clinics & telehealth kiosks (CHECK); infection prevention in care settings (CHECK).
 
-### Aging & disability
+#### Aging & disability
 Service & assistance dogs (STRONG); supported employment for disabilities (STRONG); elder abuse & neglect (CHECK); senior transportation & mobility (CHECK); adaptive & inclusive recreation (FOLD).
 
-### Children & youth
+#### Children & youth
 Youth homelessness (CHECK); street-connected children (CHECK); child abuse survivor services / child advocacy centers (CHECK); children of incarcerated parents (CHECK); juvenile justice diversion (CHECK); youth violence prevention (CHECK); children in armed conflict (CHECK); camps & respite for sick/disabled kids (FOLD).
 
-### Safety & justice
+#### Safety & justice
 Search & rescue (CHECK); crime victim & homicide survivor support (CHECK); sexual assault survivor services (CHECK); missing persons & unidentified remains (CHECK); wrongful conviction support (CHECK); safe firearm storage (FOLD); disaster long-term recovery (FOLD); volunteer fire & rural EMS equipment (FOLD); scam & fraud victim support (FOLD).
 
-### Economic hardship
+#### Economic hardship
 Transportation access (CHECK); clothing, shoes & coats (CHECK); beds & household essentials, US (CHECK); entrepreneurship & microenterprise (CHECK); skilled trades & vocational training (CHECK); utility & energy bill assistance (CHECK); predatory lending & consumer debt (CHECK); savings groups & financial inclusion (CHECK); benefits enrollment & tax help (FOLD); older worker employment (FOLD).
 
-### Housing & built environment
+#### Housing & built environment
 Slum & informal settlement upgrading (CHECK); healthy homes: mold, radon, pests (CHECK).
 
-### Environment
+#### Environment
 Freshwater ecosystems: rivers, lakes, wetlands (STRONG); forests & reforestation (CHECK); human-wildlife conflict (CHECK); urban nature & tree canopy (CHECK); private well & drinking water quality, US (CHECK); e-waste (CHECK); PFAS & chemical contamination (CHECK); livestock health & vet access (CHECK); coral reefs (FOLD); invasive species (FOLD); small-scale fishing communities (FOLD); orphan wells & abandoned mines (FOLD).
 
-### Culture & peoples
+#### Culture & peoples
 Cultural heritage & historic preservation (CHECK); global Indigenous peoples (CHECK); traditional crafts & artisan livelihoods (FOLD); oral histories & memory keeping (FOLD); military families & spouses (FOLD).
 
-### Global-specific niches
+#### Global-specific niches
 Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal workers (CHECK); scabies & skin disease (FOLD).
 
 **Round 2 net result:** about 9 rated STRONG (post-harvest loss, heart disease, preterm/NICU, hospitalized kids' families, language access, service dogs, supported employment, freshwater ecosystems, plus serious mental illness as CHECK+). Later passes confirmed only some of these (see the cross-pass scoreboard at the end).
 
 ---
 
-## Pass A: Health lens (30 entries)
+### Pass A: Health lens (30 entries)
 
 | Idea | Scope | Rating | Problem / stat |
 |---|---|---|---|
@@ -122,7 +315,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass B: Everyday need and community lens (30 entries)
+### Pass B: Everyday need and community lens (30 entries)
 
 | Idea | Scope | Rating | Problem / stat |
 |---|---|---|---|
@@ -162,7 +355,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass C: Environment / humanitarian lens (30 entries)
+### Pass C: Environment / humanitarian lens (30 entries)
 
 | Idea | Scope | Rating | Problem / stat |
 |---|---|---|---|
@@ -202,7 +395,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass D: Beneficiary-first (13 entries)
+### Pass D: Beneficiary-first (13 entries)
 
 | Idea | Scope | Rating | Problem / stat |
 |---|---|---|---|
@@ -226,7 +419,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass E: Problem-type / tangible-goods grid (9 entries + 17 grid folds, about 180 grid cells swept)
+### Pass E: Problem-type / tangible-goods grid (9 entries + 17 grid folds, about 180 grid cells swept)
 
 | Idea | Scope | Rating | Problem / stat |
 |---|---|---|---|
@@ -246,7 +439,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass F: Neglected and emerging (17 entries)
+### Pass F: Neglected and emerging (17 entries)
 
 | Idea | Scope | Rating | Problem / stat |
 |---|---|---|---|
@@ -273,9 +466,9 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass G: Audit of existing causes (restructuring + 5 new ideas)
+### Pass G: Audit of existing causes (restructuring + 5 new ideas)
 
-### Restructuring findings
+#### Restructuring findings
 
 | Cause | Issue | Recommendation |
 |---|---|---|
@@ -314,7 +507,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 | #53 Reentry | Merge | Umbrella for children of incarcerated parents, wrongful conviction, pretrial detention |
 | #25 Child Safety | Overlap | Cross-link or split out drowning |
 
-### New ideas (none reached STRONG)
+#### New ideas (none reached STRONG)
 - Skin disease & chronic wounds, Global, CHECK: ~1.8B affected (?); likely a fold into NTDs and Diabetes.
 - Winter cold & hypothermia, US/Global, FOLD into the heat cause.
 - Newborn screening & genomic diagnosis, Global, FOLD into #29 Rare Diseases.
@@ -325,7 +518,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass H: Place-based (15 entries)
+### Pass H: Place-based (15 entries)
 
 | Idea | Scope | Rating | Problem / stat |
 |---|---|---|---|
@@ -350,15 +543,15 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Pass I: Taxonomy completeness
+### Pass I: Taxonomy completeness
 
-### Coverage vs established taxonomies
+#### Coverage vs established taxonomies
 - **NTEE:** 14 of 19 relevant major groups fully covered, 5 partly (Diseases, Crime/Legal, Human Services, International, Community Improvement), 0 uncovered. Education and meta groups are excluded.
 - **Charity Navigator:** all in-scope categories covered.
 - **SDGs:** 14 of 17 fully covered, 2 partly (SDG 16 peace/dispute resolution; SDG 3 infertility and chronic pain), 1 excluded (Education); #17 Partnerships is meta.
 - **Candid population groups:** 17 of 20 covered; the uncovered ones (LGBTQ, immigrants, ethnic minorities) are political and fold into other causes.
 
-### Uncovered or marginal ideas
+#### Uncovered or marginal ideas
 
 | Idea | Rating | Problem / stat |
 |---|---|---|
@@ -382,7 +575,7 @@ Albinism support (CHECK); female genital cutting (CHECK); migrant & seasonal wor
 
 ---
 
-## Cross-pass scoreboard (most-repeated ideas)
+### Cross-pass scoreboard (most-repeated ideas)
 
 Count of the nine agent passes (A to I) that surfaced each idea, plus whether my Round 1 or 2 had it.
 
@@ -415,17 +608,17 @@ Count of the nine agent passes (A to I) that surfaced each idea, plus whether my
 | Infertility / pregnancy loss | I | CHECK |
 | US water & plumbing | H (G flagged #5 geography) | STRONG in H |
 
-### Round 2 "STRONG" ideas that no later pass confirmed
+#### Round 2 "STRONG" ideas that no later pass confirmed
 Service dogs; supported employment; serious mental illness; slum upgrading; search & rescue; global Indigenous peoples; diagnostics access. Treat these as unconfirmed.
 
-### Round 2 ideas later passes disagreed with
+#### Round 2 ideas later passes disagreed with
 Preterm / NICU (Round 2 STRONG, Pass A folded it); post-harvest loss (Round 2 STRONG, Pass C folded it into Agriculture); language access (Round 2 STRONG, Pass A called it awareness-leaning).
 
-## Corrections made during the passes
+### Corrections made during the passes
 - Drowning is ~300,000 deaths/yr (WHO, Dec 2024), not ~236,000.
 - Diabetes: ~589M (IDF, ages 20-79) vs ~830M (WHO, ages 18+); different definitions.
 - Seafarer headcount conflicts between passes (1.9M vs ~1.25M).
 - US Lyme ~476K is an insurance-claims estimate and may be high.
 
-## Reliability note
+### Reliability note
 All passes are the same underlying model as me, so agreement shows consistency, not independent proof. Passes A, B, C and G did no web search, so their stats are from memory. Verify every `(?)` figure before publishing.
